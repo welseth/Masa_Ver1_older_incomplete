@@ -3,10 +3,12 @@ Development Notes
 12Feb2016 - edited VisualStudio .gitIgnore file to PERMIT all SQL file types.
 
 https://learn.sparkfun.com/tutorials/using-github-to-share-with-sparkfun/committing-pushing-and-pulling
+        "Commit and Push" is normal for Visual Studio with only one developer.
+        
 	Commit - committing is the process which records changes in the repository. Think of it as a snapshot of the current status of the project. Commits are done locally.
-	Push - pushing sends the recent commit history from your local repository up to GitHub. If you’re the only one working on a repository, pushing is fairly simple. If there are others accessing the repository, you may need to pull before you can push.
-	Pull - a pull grabs any changes from the GitHub repository and merges them into your local repository.
-	Sync - syncing is like pulling, but instead of connecting to your GitHub copy of the forked repo, it goes back to the original repository and brings in any changes. Once you’ve synced your repository, you need to push those changes back to your GitHub account.
+	Push - pushing sends the recent commit history from your *local* repository up to GitHub. If youâ€™re the only one working on a  repository, pushing is fairly simple. If there are others accessing the repository, you may need to pull before you can push.
+	Pull - a pull grabs/fetches any changes from the GitHub repository (*from other devs*) and *merges* them into your local repository.  A git pull is what you would do to bring a local branch up-to-date with its remote version, while also updating your other remote-tracking branches. Do a pull first if there are multiple devs working on the same files.
+	Sync - syncing is like pulling, but instead of connecting to your GitHub copy of the forked repo, it goes back to the original repository and brings in any changes. Once youâ€™ve synced your repository, you need to push those changes back to your GitHub account.
 
 To Commit and Push changes up to Git do this:
    TeamExplorer >> Home >> Changes>> Add-in a comment then >> Commit&Push  
