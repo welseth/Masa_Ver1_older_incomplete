@@ -1,0 +1,24 @@
+Development Notes
+
+12Feb2016 - edited VisualStudio .gitIgnore file to PERMIT all SQL file types.
+
+https://learn.sparkfun.com/tutorials/using-github-to-share-with-sparkfun/committing-pushing-and-pulling
+	Commit - committing is the process which records changes in the repository. Think of it as a snapshot of the current status of the project. Commits are done locally.
+	Push - pushing sends the recent commit history from your local repository up to GitHub. If you’re the only one working on a repository, pushing is fairly simple. If there are others accessing the repository, you may need to pull before you can push.
+	Pull - a pull grabs any changes from the GitHub repository and merges them into your local repository.
+	Sync - syncing is like pulling, but instead of connecting to your GitHub copy of the forked repo, it goes back to the original repository and brings in any changes. Once you’ve synced your repository, you need to push those changes back to your GitHub account.
+
+To Commit and Push changes up to Git do this:
+   TeamExplorer >> Home >> Changes>> Add-in a comment then >> Commit&Push 
+
+
+
+***************************
+**** Next Steps In Development:
+
+Need to also sync the same .gitIgnore file at work so all the proper files get saved to Git.
+
+- sync/pull-down from Git  the local .gitIgnore file at work, permiting ALL SQL files to be saved.
+- Commit&Push, then check to see if the sql files get pushed up into Git at work.
+
+*****************************
