@@ -9,7 +9,7 @@ https://learn.sparkfun.com/tutorials/using-github-to-share-with-sparkfun/committ
 	Sync - syncing is like pulling, but instead of connecting to your GitHub copy of the forked repo, it goes back to the original repository and brings in any changes. Once you’ve synced your repository, you need to push those changes back to your GitHub account.
 
 To Commit and Push changes up to Git do this:
-   TeamExplorer >> Home >> Changes>> Add-in a comment then >> Commit&Push 
+   TeamExplorer >> Home >> Changes>> Add-in a comment then >> Commit&Push  
 
 
 
