@@ -2,7 +2,11 @@ Development Notes
 
 12Feb2016 - edited VisualStudio .gitIgnore file to PERMIT all SQL file types.
 
-Need to also edit the same .gitIgnore file at work so all the proper files get saved to Git.
+To Commit and Push changes up to Git do this:
+   TeamExplorer >> Home >> Changes>> Add-in a comment then >> Commit&Push 
 
-- edit the local .gitIgnore file at work, permiting ALL SQL files to be saved.
-- changes>>
+
+Need to also sync the same .gitIgnore file at work so all the proper files get saved to Git.
+
+- sync/pull-down from Git  the local .gitIgnore file at work, permiting ALL SQL files to be saved.
+- Commit&Push, then check to see if the sql files get pushed up into Git at work.
