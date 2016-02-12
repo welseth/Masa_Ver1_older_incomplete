@@ -1,0 +1,8 @@
+Development Notes
+
+12Feb2016 - edited VisualStudio .gitIgnore file to PERMIT all SQL file types.
+
+Need to also edit the same .gitIgnore file at work so all the proper files get saved to Git.
+
+- edit the local .gitIgnore file at work, permiting ALL SQL files to be saved.
+- changes>>
